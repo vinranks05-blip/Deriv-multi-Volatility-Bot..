@@ -1,0 +1,19 @@
+name: v11_expert_trader
+description: Experimental read-only Deriv volatility digit scanner
+publish_to: none
+version: 15.2.0+1
+environment:
+  sdk: '>=3.9.0 <4.0.0'
+  flutter: '>=3.35.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  web_socket_channel: ^3.0.1
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.5
+  share_plus: ^12.0.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
